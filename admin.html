@@ -34,6 +34,7 @@
       <div><label>Hero image URL / path</label><input id="mediaHero" dir="ltr"></div><div><label>رفع صورة Hero جديدة</label><input id="heroFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
       <div><label>About main image</label><input id="mediaAboutMain" dir="ltr"></div><div><label>رفع الصورة الرئيسية لـ About</label><input id="aboutMainFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
       <div><label>About secondary image</label><input id="mediaAboutSide" dir="ltr"></div><div><label>رفع الصورة الجانبية لـ About</label><input id="aboutSideFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
+      <div><label>Import / Export section image</label><input id="mediaTrade" dir="ltr"></div><div><label>رفع صورة الاستيراد والتصدير</label><input id="tradeFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
     </div></section>
 
     <section class="card"><h2>بيانات أساسية</h2><div class="grid">
@@ -54,6 +55,21 @@
       <div class="full"><label>English text - 1</label><textarea id="en_aboutText1" dir="ltr"></textarea></div><div class="full"><label>English text - 2</label><textarea id="en_aboutText2" dir="ltr"></textarea></div>
     </div></section>
 
+
+    <section class="card"><h2>الاستيراد والتصدير / Import & Export</h2><div class="lang-title">ARABIC</div><div class="grid">
+      <div class="full"><label>العنوان</label><textarea id="ar_importTitle"></textarea></div><div class="full"><label>الوصف</label><textarea id="ar_importIntro"></textarea></div>
+      <div><label>نقطة 1</label><input id="ar_importPoint1Title"></div><div><label>وصف 1</label><input id="ar_importPoint1Text"></div>
+      <div><label>نقطة 2</label><input id="ar_importPoint2Title"></div><div><label>وصف 2</label><input id="ar_importPoint2Text"></div>
+      <div><label>نقطة 3</label><input id="ar_importPoint3Title"></div><div><label>وصف 3</label><input id="ar_importPoint3Text"></div>
+      <div><label>نقطة 4</label><input id="ar_importPoint4Title"></div><div><label>وصف 4</label><input id="ar_importPoint4Text"></div>
+    </div><div class="divider"></div><div class="lang-title">ENGLISH</div><div class="grid">
+      <div class="full"><label>Headline</label><textarea id="en_importTitle" dir="ltr"></textarea></div><div class="full"><label>Description</label><textarea id="en_importIntro" dir="ltr"></textarea></div>
+      <div><label>Point 1</label><input id="en_importPoint1Title" dir="ltr"></div><div><label>Description 1</label><input id="en_importPoint1Text" dir="ltr"></div>
+      <div><label>Point 2</label><input id="en_importPoint2Title" dir="ltr"></div><div><label>Description 2</label><input id="en_importPoint2Text" dir="ltr"></div>
+      <div><label>Point 3</label><input id="en_importPoint3Title" dir="ltr"></div><div><label>Description 3</label><input id="en_importPoint3Text" dir="ltr"></div>
+      <div><label>Point 4</label><input id="en_importPoint4Title" dir="ltr"></div><div><label>Description 4</label><input id="en_importPoint4Text" dir="ltr"></div>
+    </div></section>
+
     <section class="card"><div class="row-head"><h2>الخدمات / Services</h2><button class="secondary" id="addService" type="button">+ إضافة خدمة</button></div><div id="servicesEditor"></div></section>
     <section class="card"><div class="row-head"><h2>مجالات التنفيذ / Capabilities</h2><button class="secondary" id="addProject" type="button">+ إضافة عنصر</button></div><div id="projectsEditor"></div></section>
 
@@ -61,6 +77,6 @@
 
     <div class="actions"><button class="secondary" id="reloadBtn" type="button">إعادة تحميل</button><a class="btn secondary" href="index.html" target="_blank">معاينة الموقع</a><button class="primary" id="publishBtn" type="button">نشر على GitHub</button><span class="status" id="status">جاهز</span></div>
   </main>
-  <script src="admin.js"></script>
+  <script src="admin.js?v=4.1.0"></script>
 </body>
 </html>

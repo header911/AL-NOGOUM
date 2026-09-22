@@ -30,6 +30,7 @@ function applyMedia(){
   if(m.hero) qs("#heroMedia").style.backgroundImage = `url('${safeUrl(m.hero)}')`;
   if(m.aboutMain) qs("#aboutMain").style.backgroundImage = `url('${safeUrl(m.aboutMain)}')`;
   if(m.aboutSide) qs("#aboutSide").style.backgroundImage = `url('${safeUrl(m.aboutSide)}')`;
+  if(m.trade && qs("#tradeImage")) qs("#tradeImage").style.backgroundImage = `url('${safeUrl(m.trade)}')`;
 }
 
 function applyLogo(){
@@ -81,7 +82,7 @@ function renderServices(){
   const grid = qs("#servicesGrid");
   grid.innerHTML = (siteData.services || []).map((item,i) => {
     const t = item[currentLang] || {};
-    return `<article class="service-card reveal">
+    return `<article class="service-card reveal ${item.icon === "trade" ? "service-featured" : ""}">
       <div class="service-top"><span class="service-icon">${icons[item.icon] || icons.boxes}</span><span class="service-number">0${i+1}</span></div>
       <h3>${esc(t.title)}</h3><p>${esc(t.description)}</p><span class="service-line"></span>
     </article>`;
