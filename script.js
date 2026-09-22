@@ -34,6 +34,7 @@ function applyMedia(){
 
 function applyLogo(){
   const logo = siteData.brand?.logo || "";
+  document.body.classList.toggle("has-logo", Boolean(logo));
   qsa("[data-logo]").forEach(img => {
     const fallbackEl = img.nextElementSibling;
     if(logo){

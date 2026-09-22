@@ -1,34 +1,62 @@
-# Al Nogoum — Bilingual GitHub Pages Website
+# Al Nogoum — Bilingual GitHub Pages Website (V3)
 
-Static bilingual landing page for **Al Nogoum General Supplies & Contracting**. No database and no backend are required.
+موقع Static ثنائي اللغة لشركة **النجوم للتوريدات العمومية والمقاولات**، يعمل على GitHub Pages بدون Database أو Backend.
 
-## Included
-- Arabic / English toggle with automatic RTL/LTR layout.
-- Responsive animated landing page.
-- General supplies, contracting, electrical works, tenders, import/export sourcing and site supply sections.
-- Capability cards with professional industry imagery.
-- WhatsApp / phone / email contact actions.
-- `admin.html` editor for Arabic + English content, colors, logo, services, capabilities and contacts.
-- Admin publishing directly to GitHub using a Fine-grained Personal Access Token.
+## الجديد في V3
+- تركيب اللوجو الرسمي داخل الموقع.
+- ضبط الألوان على هوية اللوجو الكحلي والذهبي.
+- إضافة رقم **01093029731** كرقم الهاتف وواتساب الرئيسي.
+- رابط واتساب يستخدم الصيغة الدولية **201093029731**.
+- تحسين شامل لتجربة الموبايل: أحجام خطوط، Hero، الكروت، الصور، الأقسام والتواصل.
+- عربي / English مع RTL/LTR تلقائي.
 
-## GitHub Pages
-1. Create a GitHub repository.
-2. Upload all files in this folder to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**.
-5. Select `main` and `/ (root)`.
-6. Save and wait for the first deployment.
+## نشر الموقع على GitHub Pages
+1. أنشئ Repository جديد على GitHub.
+2. ارفع **كل الملفات والمجلدات الموجودة داخل هذا المشروع** إلى جذر الـRepository.
+3. افتح **Settings → Pages**.
+4. اختر **Deploy from a branch**.
+5. اختر Branch: `main` وFolder: `/ (root)`.
+6. احفظ الإعداد وانتظر أول Deployment.
 
-## Admin
-Open `/admin.html` on the deployed site. The page itself is public but not linked from the landing page and is marked `noindex`. Actual write access is controlled by the GitHub token you enter at publish time.
+## الدخول كـ Admin
+لو رابط موقعك مثلًا:
 
-Create a Fine-grained GitHub token limited to the website repository with:
+`https://USERNAME.github.io/alnogoom-site/`
+
+افتح:
+
+`https://USERNAME.github.io/alnogoom-site/admin.html`
+
+صفحة الإدارة ليست مرتبطة من الواجهة الرئيسية ومضاف لها `noindex`، لكن لأنها Static فهي ليست صفحة Login بكلمة سر. **صلاحية التعديل الحقيقية تأتي من GitHub Token** الذي تدخله وقت النشر فقط.
+
+### أول مرة فقط
+أنشئ Fine-grained Personal Access Token على GitHub وحدده للـRepository الخاص بالموقع، وأعطه:
+
 - **Contents: Read and write**
 
-The token is not saved by the site. Owner/repository/branch may be remembered locally for convenience.
+ثم داخل `admin.html` اكتب:
+- GitHub Owner: اسم حسابك أو الـOrganization.
+- Repository: اسم الريبو.
+- Branch: غالبًا `main`.
+- Token: التوكن الخاص بك.
 
-## Logo
-The site currently uses a generated letter mark when no logo is configured. Set `brand.logo` in `content.json` or upload a logo from `admin.html`. Once the official logo is supplied, the palette can be updated using the three brand color controls without changing the layout.
+الـOwner والـRepository والـBranch يمكن أن يتذكرهم المتصفح. **الـToken لا يتم حفظه.**
 
-## Images
-Default imagery is loaded from Pexels URLs as representative capability imagery, not as claimed completed Al Nogoum projects. Project/capability images can be replaced with your own photos from the admin page; uploaded images are committed to `assets/projects/`. See `IMAGE-SOURCES.md`.
+## تعديل رقم الهاتف وواتساب
+من قسم **التواصل** في لوحة الإدارة:
+- `الرقم الظاهر`: مثال `01093029731`.
+- `WhatsApp digits`: مثال `201093029731` بدون `+` وبدون صفر البداية.
+
+اضغط **نشر على GitHub**. سيُحدّث `content.json`، وبعدها GitHub Pages يحدث الموقع تلقائيًا.
+
+## تعديل اللوجو والصور والمحتوى
+من لوحة الإدارة يمكنك تعديل:
+- اللوجو والألوان.
+- Hero وAbout بالعربي والإنجليزي.
+- الخدمات.
+- مجالات التنفيذ / سابقة الأعمال.
+- صور الواجهة والمشروعات.
+- أرقام الهاتف وواتساب.
+- الإيميلات.
+
+الصور الافتراضية للمجالات صور توضيحية للنشاط وليست معروضة على أنها مشروعات فعلية للشركة. يمكن استبدالها بصور أعمال الشركة من لوحة الإدارة.

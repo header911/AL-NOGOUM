@@ -1,9 +1,9 @@
 {
   "brand": {
-    "logo": "",
-    "primary": "#071827",
-    "accent": "#f4b73f",
-    "accent2": "#df7d2d"
+    "logo": "assets/brand/alnogoom-logo.png",
+    "primary": "#061F35",
+    "accent": "#D6A22D",
+    "accent2": "#B97A12"
   },
   "media": {
     "hero": "https://images.pexels.com/photos/5505119/pexels-photo-5505119.jpeg?auto=compress&cs=tinysrgb&w=1800",
@@ -15,13 +15,11 @@
       {
         "labelAr": "الهاتف / واتساب",
         "labelEn": "Phone / WhatsApp",
-        "number": "+20 100 000 0000",
-        "whatsapp": "201000000000"
+        "number": "01093029731",
+        "whatsapp": "201093029731"
       }
     ],
-    "emails": [
-      "info@example.com"
-    ]
+    "emails": []
   },
   "copy": {
     "ar": {
@@ -63,10 +61,26 @@
       "processTitle": "تنفيذ منظم وواضح في كل مرحلة.",
       "processIntro": "من تحديد الاحتياج وحتى التسليم، نحافظ على مسار عمل بسيط يمكن متابعته بوضوح.",
       "process": [
-        {"n":"01","title":"فهم الاحتياج","text":"مراجعة المواصفات، الكميات، الموقع، الجدول الزمني وأي متطلبات فنية أو إدارية."},
-        {"n":"02","title":"التسعير والتجهيز","text":"اختيار مصادر التوريد والحلول الفنية المناسبة وتجهيز العرض ونطاق العمل."},
-        {"n":"03","title":"التوريد والتنفيذ","text":"تنسيق المشتريات والنقل والأعمال بالموقع وفق المتطلبات المتفق عليها."},
-        {"n":"04","title":"المتابعة والتسليم","text":"مراجعة الأعمال، معالجة الملاحظات، واستكمال التسليم بصورة منظمة."}
+        {
+          "n": "01",
+          "title": "فهم الاحتياج",
+          "text": "مراجعة المواصفات، الكميات، الموقع، الجدول الزمني وأي متطلبات فنية أو إدارية."
+        },
+        {
+          "n": "02",
+          "title": "التسعير والتجهيز",
+          "text": "اختيار مصادر التوريد والحلول الفنية المناسبة وتجهيز العرض ونطاق العمل."
+        },
+        {
+          "n": "03",
+          "title": "التوريد والتنفيذ",
+          "text": "تنسيق المشتريات والنقل والأعمال بالموقع وفق المتطلبات المتفق عليها."
+        },
+        {
+          "n": "04",
+          "title": "المتابعة والتسليم",
+          "text": "مراجعة الأعمال، معالجة الملاحظات، واستكمال التسليم بصورة منظمة."
+        }
       ],
       "projectsKicker": "نطاقات التنفيذ",
       "projectsTitle": "مجالات نقدر نخدمك فيها.",
@@ -119,10 +133,26 @@
       "processTitle": "A clear, coordinated process at every stage.",
       "processIntro": "From defining the requirement to final handover, we keep the workflow simple, trackable and practical.",
       "process": [
-        {"n":"01","title":"Define the requirement","text":"Review specifications, quantities, location, timing and any technical or administrative requirements."},
-        {"n":"02","title":"Source & prepare","text":"Select appropriate sources and technical options, then prepare pricing and a clear scope of work."},
-        {"n":"03","title":"Supply & execute","text":"Coordinate procurement, delivery and on-site execution according to the agreed requirements."},
-        {"n":"04","title":"Follow up & hand over","text":"Review the work, address outstanding points and complete an organized handover."}
+        {
+          "n": "01",
+          "title": "Define the requirement",
+          "text": "Review specifications, quantities, location, timing and any technical or administrative requirements."
+        },
+        {
+          "n": "02",
+          "title": "Source & prepare",
+          "text": "Select appropriate sources and technical options, then prepare pricing and a clear scope of work."
+        },
+        {
+          "n": "03",
+          "title": "Supply & execute",
+          "text": "Coordinate procurement, delivery and on-site execution according to the agreed requirements."
+        },
+        {
+          "n": "04",
+          "title": "Follow up & hand over",
+          "text": "Review the work, address outstanding points and complete an organized handover."
+        }
       ],
       "projectsKicker": "Core capabilities",
       "projectsTitle": "Where we can support your work.",
@@ -140,55 +170,123 @@
   "services": [
     {
       "icon": "bolt",
-      "ar": {"title":"الأعمال الكهربائية","description":"توريد وتركيب وصيانة أعمال القوى والإنارة، اللوحات والتوزيع، الكابلات والتجهيزات الكهربائية للمواقع والمنشآت."},
-      "en": {"title":"Electrical Works","description":"Supply, installation and maintenance for power, lighting, distribution panels, cabling and electrical requirements across sites and facilities."}
+      "ar": {
+        "title": "الأعمال الكهربائية",
+        "description": "توريد وتركيب وصيانة أعمال القوى والإنارة، اللوحات والتوزيع، الكابلات والتجهيزات الكهربائية للمواقع والمنشآت."
+      },
+      "en": {
+        "title": "Electrical Works",
+        "description": "Supply, installation and maintenance for power, lighting, distribution panels, cabling and electrical requirements across sites and facilities."
+      }
     },
     {
       "icon": "boxes",
-      "ar": {"title":"التوريدات العمومية","description":"توفير الخامات والمعدات والمستلزمات واحتياجات التشغيل والمشروعات وفق المواصفات والكميات المطلوبة."},
-      "en": {"title":"General Supplies","description":"Sourcing materials, equipment, operational supplies and project requirements according to required specifications and quantities."}
+      "ar": {
+        "title": "التوريدات العمومية",
+        "description": "توفير الخامات والمعدات والمستلزمات واحتياجات التشغيل والمشروعات وفق المواصفات والكميات المطلوبة."
+      },
+      "en": {
+        "title": "General Supplies",
+        "description": "Sourcing materials, equipment, operational supplies and project requirements according to required specifications and quantities."
+      }
     },
     {
       "icon": "build",
-      "ar": {"title":"المقاولات والتجهيزات","description":"تنفيذ وتجهيز أعمال المواقع والمشروعات والتنسيق بين التوريد والتنفيذ حتى الوصول لمرحلة التسليم."},
-      "en": {"title":"Contracting & Fit-Out","description":"On-site contracting and preparation works, coordinating procurement and execution through to handover."}
+      "ar": {
+        "title": "المقاولات والتجهيزات",
+        "description": "تنفيذ وتجهيز أعمال المواقع والمشروعات والتنسيق بين التوريد والتنفيذ حتى الوصول لمرحلة التسليم."
+      },
+      "en": {
+        "title": "Contracting & Fit-Out",
+        "description": "On-site contracting and preparation works, coordinating procurement and execution through to handover."
+      }
     },
     {
       "icon": "tender",
-      "ar": {"title":"المناقصات والتعاقدات","description":"تجهيز متطلبات التوريد والتنفيذ للمقايسات والمناقصات والطلبات الخاصة بالجهات والشركات ضمن نطاق أعمال الشركة."},
-      "en": {"title":"Tenders & Contract Requirements","description":"Supporting supply and execution requirements for BOQs, tenders and procurement requests within the company’s service scope."}
+      "ar": {
+        "title": "المناقصات والتعاقدات",
+        "description": "تجهيز متطلبات التوريد والتنفيذ للمقايسات والمناقصات والطلبات الخاصة بالجهات والشركات ضمن نطاق أعمال الشركة."
+      },
+      "en": {
+        "title": "Tenders & Contract Requirements",
+        "description": "Supporting supply and execution requirements for BOQs, tenders and procurement requests within the company’s service scope."
+      }
     },
     {
       "icon": "trade",
-      "ar": {"title":"الاستيراد والتصدير","description":"تنسيق احتياجات الشراء والتوريد ذات الصلة بالاستيراد والتصدير وربطها بخطة التوريد والتسليم للمشروع."},
-      "en": {"title":"Import & Export Sourcing","description":"Coordinating sourcing requirements connected to import and export needs and aligning them with project supply and delivery plans."}
+      "ar": {
+        "title": "الاستيراد والتصدير",
+        "description": "تنسيق احتياجات الشراء والتوريد ذات الصلة بالاستيراد والتصدير وربطها بخطة التوريد والتسليم للمشروع."
+      },
+      "en": {
+        "title": "Import & Export Sourcing",
+        "description": "Coordinating sourcing requirements connected to import and export needs and aligning them with project supply and delivery plans."
+      }
     },
     {
       "icon": "support",
-      "ar": {"title":"توريد للمواقع والتشغيل","description":"تجميع احتياجات المواقع والتشغيل من موردين وفئات مختلفة في مسار توريد منظم مع متابعة مستمرة."},
-      "en": {"title":"Site & Operational Supply","description":"Consolidating multi-category site and operational requirements into a coordinated supply workflow with ongoing follow-up."}
+      "ar": {
+        "title": "توريد للمواقع والتشغيل",
+        "description": "تجميع احتياجات المواقع والتشغيل من موردين وفئات مختلفة في مسار توريد منظم مع متابعة مستمرة."
+      },
+      "en": {
+        "title": "Site & Operational Supply",
+        "description": "Consolidating multi-category site and operational requirements into a coordinated supply workflow with ongoing follow-up."
+      }
     }
   ],
   "projects": [
     {
       "image": "https://images.pexels.com/photos/17842834/pexels-photo-17842834.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "ar": {"category":"كهرباء","title":"قوى، لوحات وتوزيع كهربائي","description":"توريد وتجهيز وتنفيذ احتياجات الكهرباء للمواقع والمنشآت مع التركيز على الدقة وسلامة التنفيذ."},
-      "en": {"category":"Electrical","title":"Power, Panels & Distribution","description":"Electrical supply and execution requirements for sites and facilities with an emphasis on accuracy and safe workmanship."}
+      "ar": {
+        "category": "كهرباء",
+        "title": "قوى، لوحات وتوزيع كهربائي",
+        "description": "توريد وتجهيز وتنفيذ احتياجات الكهرباء للمواقع والمنشآت مع التركيز على الدقة وسلامة التنفيذ."
+      },
+      "en": {
+        "category": "Electrical",
+        "title": "Power, Panels & Distribution",
+        "description": "Electrical supply and execution requirements for sites and facilities with an emphasis on accuracy and safe workmanship."
+      }
     },
     {
       "image": "https://images.pexels.com/photos/5505119/pexels-photo-5505119.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "ar": {"category":"مقاولات","title":"تنفيذ وتجهيز مواقع ومشروعات","description":"تنسيق الأعمال التنفيذية والتجهيزات والمواد المطلوبة بالموقع ضمن نطاق واضح ومتابعة حتى التسليم."},
-      "en": {"category":"Contracting","title":"Project & Site Execution","description":"Coordinated execution, site preparation and material requirements under a clear scope through to handover."}
+      "ar": {
+        "category": "مقاولات",
+        "title": "تنفيذ وتجهيز مواقع ومشروعات",
+        "description": "تنسيق الأعمال التنفيذية والتجهيزات والمواد المطلوبة بالموقع ضمن نطاق واضح ومتابعة حتى التسليم."
+      },
+      "en": {
+        "category": "Contracting",
+        "title": "Project & Site Execution",
+        "description": "Coordinated execution, site preparation and material requirements under a clear scope through to handover."
+      }
     },
     {
       "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "ar": {"category":"توريدات","title":"توريدات متعددة الفئات","description":"إدارة احتياجات مختلفة من الخامات والمستلزمات والمعدات وربطها بالمواصفات ومواعيد التسليم."},
-      "en": {"category":"Supplies","title":"Multi-Category Procurement","description":"Managing materials, supplies and equipment requirements while aligning specifications, quantities and delivery timing."}
+      "ar": {
+        "category": "توريدات",
+        "title": "توريدات متعددة الفئات",
+        "description": "إدارة احتياجات مختلفة من الخامات والمستلزمات والمعدات وربطها بالمواصفات ومواعيد التسليم."
+      },
+      "en": {
+        "category": "Supplies",
+        "title": "Multi-Category Procurement",
+        "description": "Managing materials, supplies and equipment requirements while aligning specifications, quantities and delivery timing."
+      }
     },
     {
       "image": "https://images.pexels.com/photos/8783533/pexels-photo-8783533.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "ar": {"category":"تجارة ولوجستيات","title":"توريد مرتبط بالاستيراد والتصدير","description":"تنسيق احتياجات الشراء والشحن والتوريد للمشروعات التي تتطلب مصادر خارجية أو ترتيبات تجارية ولوجستية."},
-      "en": {"category":"Trade & Logistics","title":"Import / Export Linked Sourcing","description":"Coordinating sourcing, shipment and supply requirements for projects that depend on external sources or trade logistics."}
+      "ar": {
+        "category": "تجارة ولوجستيات",
+        "title": "توريد مرتبط بالاستيراد والتصدير",
+        "description": "تنسيق احتياجات الشراء والشحن والتوريد للمشروعات التي تتطلب مصادر خارجية أو ترتيبات تجارية ولوجستية."
+      },
+      "en": {
+        "category": "Trade & Logistics",
+        "title": "Import / Export Linked Sourcing",
+        "description": "Coordinating sourcing, shipment and supply requirements for projects that depend on external sources or trade logistics."
+      }
     }
   ]
 }

@@ -12,3 +12,141 @@
 @media(max-width:900px){.section{padding:92px 0}.site-header,.site-header.scrolled{height:74px}.brand-copy small{display:none}.menu-toggle{display:block;z-index:5}.main-nav{position:fixed;inset:0;background:rgba(4,18,29,.97);backdrop-filter:blur(18px);flex-direction:column;justify-content:center;gap:27px;opacity:0;pointer-events:none;transition:.3s}.main-nav.open{opacity:1;pointer-events:auto}.main-nav .nav-link{font-size:1.15rem}.menu-toggle.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}.menu-toggle.active span:nth-child(2){opacity:0}.menu-toggle.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}.hero{padding-top:120px;min-height:auto}.hero-layout{grid-template-columns:1fr}.hero-copy{max-width:760px}.hero-aside{min-height:390px}.hero-emblem{width:320px}.card-electrical{inset-inline-start:8%}.card-supply{inset-inline-end:7%}.hero-bottom{position:relative;bottom:auto;margin-top:30px;z-index:5}.about-layout{grid-template-columns:1fr;gap:55px}.about-media{min-height:560px;order:2}.about-copy{order:1}.section-heading{align-items:start;flex-direction:column;gap:20px}.process-layout{grid-template-columns:1fr;gap:45px}.process-intro{position:relative;top:auto}.contact-panel{grid-template-columns:1fr;gap:40px}.projects-grid{grid-auto-rows:300px}.project-card{grid-column:span 6!important}}
 @media(max-width:620px){.container{width:min(100% - 26px,1200px)}.lang-toggle{padding:8px 10px}.lang-icon{display:none}.brand-logo-wrap{width:40px;height:40px}.hero{padding:106px 0 42px}.hero h1{font-size:clamp(2.45rem,12vw,3.55rem)}.lang-en .hero h1{font-size:clamp(2.35rem,11vw,3.35rem)}.hero-subtitle{font-size:.9rem;line-height:1.85}.hero-actions{flex-direction:column}.btn{width:100%}.hero-aside{min-height:325px}.hero-emblem{width:270px}.emblem-core{width:145px;height:145px;border-radius:32px}.hero-logo-fallback{width:72px;height:72px}.hero-card{min-width:170px;padding:11px}.hero-card strong{font-size:.72rem}.hero-card span{font-size:.57rem}.card-electrical{top:10%;inset-inline-start:0}.card-supply{bottom:8%;inset-inline-end:0}.hero-bottom{align-items:flex-start;gap:18px}.trust-line{max-width:70%}.scroll-cue span{display:none}.about-media{min-height:440px}.about-photo-main{height:370px;width:85%}.about-photo-side{height:215px;width:52%}.about-stamp{width:105px;height:105px;top:18px}.photo-label{bottom:26px;inset-inline-start:12px}.services-grid{grid-template-columns:1fr}.service-card{min-height:275px}.projects-grid{display:grid;grid-template-columns:1fr;grid-auto-rows:390px}.project-card{grid-column:1/-1!important}.project-content{padding:21px}.project-content p{padding-inline-end:34px}.project-content b{inset-inline-end:18px;bottom:20px}.process-step{grid-template-columns:48px 1fr;gap:13px;padding:22px 0}.contact-panel{padding:28px 20px;border-radius:24px}.contact-location-block,.contact-item{padding:14px}.footer-wrap{align-items:flex-start;flex-direction:column}.floating-whatsapp b{display:none}.floating-whatsapp{width:48px;height:48px;padding:0;justify-content:center}.cursor-glow{display:none}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* V3 — official brand logo integration */
+.has-logo .brand-logo-wrap{width:58px;height:52px;border-radius:12px;background:#fff;padding:2px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.has-logo .brand-logo{object-fit:contain;border-radius:9px;background:#fff}
+.has-logo .hero-logo{width:148px;height:148px;object-fit:contain;border-radius:24px;background:#fff;padding:3px}
+.has-logo .emblem-core{width:205px;height:205px;border-radius:46px}
+.has-logo .emblem-core small{display:none}
+.has-logo .brand-logo-wrap.mini{width:48px;height:44px;border-radius:10px}
+
+/* V3 — polished phone layout */
+@media(max-width:620px){
+  :root{--radius:22px}
+  html{scroll-padding-top:70px}
+  body{line-height:1.75}
+  .container{width:min(calc(100% - 30px),1200px)}
+  .section{padding:72px 0}
+  .site-header,.site-header.scrolled{height:68px}
+  .nav-wrap{gap:8px}
+  .brand{gap:8px;min-width:0;flex:1}
+  .brand-copy{min-width:0}
+  .brand-copy strong{font-size:.78rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:145px}
+  .brand-copy small{display:none}
+  .has-logo .brand-logo-wrap{width:46px;height:44px;border-radius:10px;padding:1px}
+  .nav-actions{gap:5px;flex:none}
+  .lang-toggle{padding:7px 9px;min-height:38px}
+  .lang-toggle b{font-size:.66rem}
+  .menu-toggle{width:38px;height:38px}
+
+  .hero{padding:92px 0 30px;min-height:auto;align-items:flex-start}
+  .hero-media{inset:-1%;background-position:center 42%}
+  .hero-shade{background:linear-gradient(180deg,rgba(4,16,27,.9),rgba(4,16,27,.94) 47%,rgba(4,16,27,.98)),linear-gradient(90deg,rgba(4,16,27,.45),rgba(4,16,27,.45))!important}
+  .hero-lines{background-size:44px 44px;opacity:.55}
+  .hero-layout{gap:8px}
+  .hero-copy{max-width:100%}
+  .eyebrow{max-width:100%;white-space:normal;line-height:1.55;font-size:.58rem;padding:6px 10px;gap:8px}
+  .eyebrow-dot{width:6px;height:6px;flex:none}
+  .hero h1{font-size:clamp(1.95rem,9.6vw,2.65rem);line-height:1.28;letter-spacing:-.035em;margin-top:16px;max-width:100%;text-wrap:pretty}
+  .lang-en .hero h1{font-size:clamp(1.88rem,8.8vw,2.5rem);line-height:1.12;letter-spacing:-.04em}
+  .hero-subtitle{margin-top:14px;font-size:.86rem;line-height:1.82;max-width:100%}
+  .lang-en .hero-subtitle{line-height:1.65}
+  .hero-actions{margin-top:21px;gap:9px}
+  .btn{min-height:47px;border-radius:12px;padding:0 16px;font-size:.8rem}
+  .hero-meta{margin-top:18px;gap:9px}
+  .meta-pin{width:36px;height:36px;border-radius:10px}
+  .hero-meta small{font-size:.58rem}
+  .hero-meta strong{font-size:.75rem}
+
+  .hero-aside{min-height:268px;margin-top:8px}
+  .hero-emblem{width:225px}
+  .emblem-core{width:126px;height:126px;border-radius:30px}
+  .has-logo .emblem-core{width:144px;height:144px;border-radius:32px}
+  .has-logo .hero-logo{width:124px;height:124px;border-radius:22px;padding:2px}
+  .hero-card{min-width:0;width:145px;padding:9px 10px;gap:8px;border-radius:14px}
+  .card-icon{width:34px;height:34px;border-radius:10px;font-size:.95rem;flex:none}
+  .hero-card strong{font-size:.66rem;line-height:1.35}
+  .hero-card span{font-size:.52rem;line-height:1.4}
+  .card-electrical{top:3%;inset-inline-start:0}
+  .card-supply{bottom:2%;inset-inline-end:0}
+  .hero-bottom{margin-top:12px;align-items:center;gap:8px}
+  .trust-line{max-width:92%;font-size:.58rem;line-height:1.6}
+  .trust-line i{width:22px;flex:none}
+  .scroll-cue{display:none}
+
+  .about-layout{gap:34px}
+  .about-copy h2,.section-heading h2,.process-intro h2,.contact-copy h2{font-size:clamp(1.8rem,8vw,2.35rem);line-height:1.28;letter-spacing:-.035em;margin-top:8px;text-wrap:pretty}
+  .lang-en .about-copy h2,.lang-en .section-heading h2,.lang-en .process-intro h2,.lang-en .contact-copy h2{line-height:1.12}
+  .section-kicker{font-size:.62rem;letter-spacing:.1em}
+  .about-copy .lead{margin-top:18px;font-size:.96rem;line-height:1.9}
+  .about-copy>p:not(.lead){margin-top:13px;font-size:.84rem;line-height:1.85}
+  .about-pills{margin-top:20px;gap:7px}
+  .about-pills span{font-size:.65rem;padding:6px 10px}
+  .about-media{min-height:355px}
+  .about-photo-main{height:300px;width:88%;border-radius:22px}
+  .about-photo-side{height:168px;width:49%;border-width:5px;border-radius:18px}
+  .about-stamp{width:88px;height:88px;top:14px;inset-inline-end:1%}
+  .about-stamp span{font-size:.46rem}.about-stamp strong{font-size:.93rem}.about-stamp small{font-size:.33rem}
+  .photo-label{bottom:16px;inset-inline-start:10px;font-size:.59rem;padding:6px 9px}
+
+  .section-heading{gap:12px;margin-bottom:28px}
+  .section-heading>p{font-size:.82rem;line-height:1.8}
+  .services-grid{gap:11px}
+  .service-card{min-height:auto;padding:20px;border-radius:22px}
+  .service-icon{width:46px;height:46px;border-radius:13px}
+  .service-icon svg{width:23px;height:23px}
+  .service-card h3{font-size:1.06rem;margin-top:24px}
+  .service-card p{font-size:.79rem;line-height:1.8;margin-top:8px}
+
+  .process-layout{gap:27px}
+  .process-intro p{font-size:.82rem;line-height:1.8;margin-top:13px}
+  .process-steps{gap:4px}
+  .process-step{grid-template-columns:42px 1fr;gap:10px;padding:18px 0}
+  .process-step>span{font-size:.6rem;padding-top:5px}
+  .process-step h3{font-size:1rem}
+  .process-step p{font-size:.78rem;line-height:1.75;margin-top:5px}
+
+  .projects-grid{grid-template-columns:1fr;grid-auto-rows:315px;gap:12px}
+  .project-card{grid-column:1/-1!important;border-radius:22px}
+  .project-content{padding:18px}
+  .project-content>span{font-size:.56rem;padding:4px 8px}
+  .project-content h3{font-size:1.08rem;line-height:1.35;margin-top:8px;padding-inline-end:34px}
+  .project-content p{font-size:.7rem;line-height:1.6;margin-top:5px;padding-inline-end:0;max-width:92%}
+  .project-content b{width:34px;height:34px;inset-inline-end:15px;bottom:17px}
+
+  .contact{padding-bottom:105px}
+  .contact-panel{padding:23px 16px;border-radius:22px;gap:26px}
+  .contact-copy p{margin-top:12px;font-size:.82rem;line-height:1.8}
+  .contact-cta{margin-top:18px;width:100%}
+  .contact-details{gap:8px}
+  .contact-location-block,.contact-item{padding:12px 13px;border-radius:13px;gap:10px}
+  .contact-location-block small,.contact-item small{font-size:.57rem}
+  .contact-location-block strong,.contact-item strong{font-size:.73rem;overflow-wrap:anywhere}
+  .contact-item>span{font-size:.78rem}
+
+  .site-footer{padding:24px 0}
+  .footer-wrap{gap:16px}
+  .footer-brand{gap:9px;align-items:flex-start}
+  .has-logo .brand-logo-wrap.mini{width:43px;height:40px}
+  .footer-brand strong{font-size:.72rem;line-height:1.5}
+  .footer-brand p,.footer-note{font-size:.58rem;line-height:1.6}
+  .floating-whatsapp{inset-inline-end:14px;bottom:14px;width:50px;height:50px}
+}
+
+@media(max-width:390px){
+  .container{width:min(calc(100% - 24px),1200px)}
+  .brand-copy strong{max-width:112px;font-size:.72rem}
+  .lang-toggle{padding-inline:8px}
+  .lang-toggle b{font-size:.61rem}
+  .hero h1{font-size:clamp(1.82rem,9.2vw,2.25rem)}
+  .lang-en .hero h1{font-size:clamp(1.72rem,8.7vw,2.15rem)}
+  .hero-card{width:132px;padding:8px}
+  .hero-card strong{font-size:.61rem}
+  .hero-card span{font-size:.49rem}
+  .hero-emblem{width:205px}
+  .has-logo .emblem-core{width:136px;height:136px}
+  .has-logo .hero-logo{width:116px;height:116px}
+  .projects-grid{grid-auto-rows:292px}
+}
