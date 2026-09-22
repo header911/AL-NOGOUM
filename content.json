@@ -1,0 +1,194 @@
+{
+  "brand": {
+    "logo": "",
+    "primary": "#071827",
+    "accent": "#f4b73f",
+    "accent2": "#df7d2d"
+  },
+  "media": {
+    "hero": "https://images.pexels.com/photos/5505119/pexels-photo-5505119.jpeg?auto=compress&cs=tinysrgb&w=1800",
+    "aboutMain": "https://images.pexels.com/photos/10871929/pexels-photo-10871929.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "aboutSide": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=900"
+  },
+  "contact": {
+    "phones": [
+      {
+        "labelAr": "الهاتف / واتساب",
+        "labelEn": "Phone / WhatsApp",
+        "number": "+20 100 000 0000",
+        "whatsapp": "201000000000"
+      }
+    ],
+    "emails": [
+      "info@example.com"
+    ]
+  },
+  "copy": {
+    "ar": {
+      "companyName": "شركة النجوم للتوريدات العمومية والمقاولات",
+      "shortName": "النجوم",
+      "location": "شبين الكوم، المنوفية، مصر",
+      "nav": {
+        "home": "الرئيسية",
+        "about": "من نحن",
+        "services": "خدماتنا",
+        "projects": "مجالات التنفيذ",
+        "contact": "تواصل معنا"
+      },
+      "languageButton": "English",
+      "menuLabel": "فتح القائمة",
+      "heroBadge": "توريدات عمومية • مقاولات • كهرباء • استيراد وتصدير",
+      "heroTitle": "شريك تنفيذ وتوريد يعتمد عليه، من أول الطلب حتى التسليم.",
+      "heroSubtitle": "نخدم الشركات والجهات والمؤسسات بحلول متكاملة في التوريدات العمومية، المقاولات، الأعمال الكهربائية، تجهيز المواقع، وتنسيق احتياجات الاستيراد والتصدير — مع متابعة عملية وسرعة استجابة واهتمام بالتفاصيل.",
+      "heroPrimary": "اطلب عرضًا أو تواصل معنا",
+      "heroSecondary": "استكشف خدماتنا",
+      "heroScroll": "اكتشف المزيد",
+      "heroCard1Title": "كهرباء وقوى",
+      "heroCard1Text": "تنفيذ • توريد • صيانة",
+      "heroCard2Title": "توريدات ومقاولات",
+      "heroCard2Text": "حلول للقطاعين العام والخاص",
+      "trustLine": "حلول عملية للأعمال الحكومية، الشركات، المشروعات والمواقع",
+      "aboutKicker": "من نحن",
+      "aboutTitle": "خبرة تنفيذية بعقلية توريد مرنة.",
+      "aboutText1": "شركة النجوم للتوريدات العمومية والمقاولات تعمل من شبين الكوم بالمنوفية لخدمة احتياجات المشروعات والجهات المختلفة. نركز على فهم المطلوب بدقة، اختيار الحل المناسب، ثم المتابعة حتى اكتمال التوريد أو التنفيذ.",
+      "aboutText2": "طبيعة عملنا تجمع بين التوريد والتنفيذ؛ لذلك نستطيع التعامل مع نطاقات متنوعة تشمل الأعمال الكهربائية، مستلزمات المواقع، المواد والمعدات، المقاولات والتجهيزات، إضافة إلى التنسيق التجاري واللوجستي للاحتياجات المرتبطة بالاستيراد والتصدير.",
+      "aboutPill1": "استجابة سريعة",
+      "aboutPill2": "متابعة حتى التسليم",
+      "aboutPill3": "مرونة في نطاق العمل",
+      "aboutImageLabel": "توريد وتنفيذ باحترافية",
+      "servicesKicker": "ماذا نقدم",
+      "servicesTitle": "خدمات تغطي دورة العمل من المصدر إلى الموقع.",
+      "servicesIntro": "بدل التعامل مع أكثر من جهة، نوفر نقطة اتصال واحدة لتنسيق التوريد، الأعمال الفنية، التنفيذ والمتابعة.",
+      "processKicker": "طريقة العمل",
+      "processTitle": "تنفيذ منظم وواضح في كل مرحلة.",
+      "processIntro": "من تحديد الاحتياج وحتى التسليم، نحافظ على مسار عمل بسيط يمكن متابعته بوضوح.",
+      "process": [
+        {"n":"01","title":"فهم الاحتياج","text":"مراجعة المواصفات، الكميات، الموقع، الجدول الزمني وأي متطلبات فنية أو إدارية."},
+        {"n":"02","title":"التسعير والتجهيز","text":"اختيار مصادر التوريد والحلول الفنية المناسبة وتجهيز العرض ونطاق العمل."},
+        {"n":"03","title":"التوريد والتنفيذ","text":"تنسيق المشتريات والنقل والأعمال بالموقع وفق المتطلبات المتفق عليها."},
+        {"n":"04","title":"المتابعة والتسليم","text":"مراجعة الأعمال، معالجة الملاحظات، واستكمال التسليم بصورة منظمة."}
+      ],
+      "projectsKicker": "نطاقات التنفيذ",
+      "projectsTitle": "مجالات نقدر نخدمك فيها.",
+      "projectsIntro": "النماذج التالية توضح نطاقات العمل الرئيسية للشركة، ويمكن استبدالها من لوحة الإدارة بمشروعات وصور سابقة الأعمال الفعلية في أي وقت.",
+      "contactKicker": "تواصل معنا",
+      "contactTitle": "عندك توريد، مقايسة أو مشروع؟ ابعت التفاصيل ونبدأ.",
+      "contactText": "تواصل معنا لطلبات التوريد، المقاولات، الأعمال الكهربائية، تجهيز المواقع أو الاستفسار عن نطاق تنفيذ معين. يمكن إرسال التفاصيل مباشرة على واتساب.",
+      "contactWhatsapp": "تواصل على واتساب",
+      "contactLocationLabel": "المقر",
+      "emailLabel": "البريد الإلكتروني",
+      "footerLine": "توريدات عمومية • مقاولات • أعمال كهربائية • استيراد وتصدير",
+      "rights": "جميع الحقوق محفوظة"
+    },
+    "en": {
+      "companyName": "Al Nogoum General Supplies & Contracting",
+      "shortName": "AL NOGOUM",
+      "location": "Shebin El-Kom, Monufia, Egypt",
+      "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Capabilities",
+        "contact": "Contact"
+      },
+      "languageButton": "العربية",
+      "menuLabel": "Open menu",
+      "heroBadge": "GENERAL SUPPLIES • CONTRACTING • ELECTRICAL • IMPORT & EXPORT",
+      "heroTitle": "A dependable supply and execution partner — from requirement to handover.",
+      "heroSubtitle": "We support companies, institutions and project teams with integrated general supplies, contracting, electrical works, site preparation, and sourcing support for import and export requirements — with responsive coordination and practical follow-through.",
+      "heroPrimary": "Request a quote / Contact us",
+      "heroSecondary": "Explore our services",
+      "heroScroll": "Discover more",
+      "heroCard1Title": "Electrical Works",
+      "heroCard1Text": "Supply • Installation • Maintenance",
+      "heroCard2Title": "Supplies & Contracting",
+      "heroCard2Text": "Public & private sector support",
+      "trustLine": "Practical solutions for institutions, companies, projects and job sites",
+      "aboutKicker": "About us",
+      "aboutTitle": "Execution capability with a flexible procurement mindset.",
+      "aboutText1": "Al Nogoum General Supplies & Contracting operates from Shebin El-Kom, Monufia, supporting the day-to-day and project requirements of organizations and businesses. We focus on understanding the scope clearly, selecting the right solution, and staying involved through delivery or completion.",
+      "aboutText2": "Our work combines procurement and execution, allowing us to cover electrical works, site and project supplies, materials and equipment, contracting and fit-out requirements, as well as commercial and logistics coordination connected to import and export sourcing.",
+      "aboutPill1": "Responsive coordination",
+      "aboutPill2": "Follow-through to handover",
+      "aboutPill3": "Flexible scope",
+      "aboutImageLabel": "Supply & execution, professionally coordinated",
+      "servicesKicker": "What we do",
+      "servicesTitle": "Services that cover the workflow from source to site.",
+      "servicesIntro": "A single point of contact for procurement, technical work, execution and coordination — reducing handoffs and keeping requirements aligned.",
+      "processKicker": "How we work",
+      "processTitle": "A clear, coordinated process at every stage.",
+      "processIntro": "From defining the requirement to final handover, we keep the workflow simple, trackable and practical.",
+      "process": [
+        {"n":"01","title":"Define the requirement","text":"Review specifications, quantities, location, timing and any technical or administrative requirements."},
+        {"n":"02","title":"Source & prepare","text":"Select appropriate sources and technical options, then prepare pricing and a clear scope of work."},
+        {"n":"03","title":"Supply & execute","text":"Coordinate procurement, delivery and on-site execution according to the agreed requirements."},
+        {"n":"04","title":"Follow up & hand over","text":"Review the work, address outstanding points and complete an organized handover."}
+      ],
+      "projectsKicker": "Core capabilities",
+      "projectsTitle": "Where we can support your work.",
+      "projectsIntro": "The examples below represent the company’s main service areas. They can be replaced from the admin panel with actual completed projects, client references and project photos at any time.",
+      "contactKicker": "Contact",
+      "contactTitle": "Have a supply request, BOQ or project? Send the details and let’s start.",
+      "contactText": "Contact us for supply requests, contracting, electrical works, site preparation or a specific execution requirement. You can send your request directly through WhatsApp.",
+      "contactWhatsapp": "Chat on WhatsApp",
+      "contactLocationLabel": "Office",
+      "emailLabel": "Email",
+      "footerLine": "General Supplies • Contracting • Electrical Works • Import & Export",
+      "rights": "All rights reserved"
+    }
+  },
+  "services": [
+    {
+      "icon": "bolt",
+      "ar": {"title":"الأعمال الكهربائية","description":"توريد وتركيب وصيانة أعمال القوى والإنارة، اللوحات والتوزيع، الكابلات والتجهيزات الكهربائية للمواقع والمنشآت."},
+      "en": {"title":"Electrical Works","description":"Supply, installation and maintenance for power, lighting, distribution panels, cabling and electrical requirements across sites and facilities."}
+    },
+    {
+      "icon": "boxes",
+      "ar": {"title":"التوريدات العمومية","description":"توفير الخامات والمعدات والمستلزمات واحتياجات التشغيل والمشروعات وفق المواصفات والكميات المطلوبة."},
+      "en": {"title":"General Supplies","description":"Sourcing materials, equipment, operational supplies and project requirements according to required specifications and quantities."}
+    },
+    {
+      "icon": "build",
+      "ar": {"title":"المقاولات والتجهيزات","description":"تنفيذ وتجهيز أعمال المواقع والمشروعات والتنسيق بين التوريد والتنفيذ حتى الوصول لمرحلة التسليم."},
+      "en": {"title":"Contracting & Fit-Out","description":"On-site contracting and preparation works, coordinating procurement and execution through to handover."}
+    },
+    {
+      "icon": "tender",
+      "ar": {"title":"المناقصات والتعاقدات","description":"تجهيز متطلبات التوريد والتنفيذ للمقايسات والمناقصات والطلبات الخاصة بالجهات والشركات ضمن نطاق أعمال الشركة."},
+      "en": {"title":"Tenders & Contract Requirements","description":"Supporting supply and execution requirements for BOQs, tenders and procurement requests within the company’s service scope."}
+    },
+    {
+      "icon": "trade",
+      "ar": {"title":"الاستيراد والتصدير","description":"تنسيق احتياجات الشراء والتوريد ذات الصلة بالاستيراد والتصدير وربطها بخطة التوريد والتسليم للمشروع."},
+      "en": {"title":"Import & Export Sourcing","description":"Coordinating sourcing requirements connected to import and export needs and aligning them with project supply and delivery plans."}
+    },
+    {
+      "icon": "support",
+      "ar": {"title":"توريد للمواقع والتشغيل","description":"تجميع احتياجات المواقع والتشغيل من موردين وفئات مختلفة في مسار توريد منظم مع متابعة مستمرة."},
+      "en": {"title":"Site & Operational Supply","description":"Consolidating multi-category site and operational requirements into a coordinated supply workflow with ongoing follow-up."}
+    }
+  ],
+  "projects": [
+    {
+      "image": "https://images.pexels.com/photos/17842834/pexels-photo-17842834.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "ar": {"category":"كهرباء","title":"قوى، لوحات وتوزيع كهربائي","description":"توريد وتجهيز وتنفيذ احتياجات الكهرباء للمواقع والمنشآت مع التركيز على الدقة وسلامة التنفيذ."},
+      "en": {"category":"Electrical","title":"Power, Panels & Distribution","description":"Electrical supply and execution requirements for sites and facilities with an emphasis on accuracy and safe workmanship."}
+    },
+    {
+      "image": "https://images.pexels.com/photos/5505119/pexels-photo-5505119.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "ar": {"category":"مقاولات","title":"تنفيذ وتجهيز مواقع ومشروعات","description":"تنسيق الأعمال التنفيذية والتجهيزات والمواد المطلوبة بالموقع ضمن نطاق واضح ومتابعة حتى التسليم."},
+      "en": {"category":"Contracting","title":"Project & Site Execution","description":"Coordinated execution, site preparation and material requirements under a clear scope through to handover."}
+    },
+    {
+      "image": "https://images.pexels.com/photos/4481327/pexels-photo-4481327.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "ar": {"category":"توريدات","title":"توريدات متعددة الفئات","description":"إدارة احتياجات مختلفة من الخامات والمستلزمات والمعدات وربطها بالمواصفات ومواعيد التسليم."},
+      "en": {"category":"Supplies","title":"Multi-Category Procurement","description":"Managing materials, supplies and equipment requirements while aligning specifications, quantities and delivery timing."}
+    },
+    {
+      "image": "https://images.pexels.com/photos/8783533/pexels-photo-8783533.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "ar": {"category":"تجارة ولوجستيات","title":"توريد مرتبط بالاستيراد والتصدير","description":"تنسيق احتياجات الشراء والشحن والتوريد للمشروعات التي تتطلب مصادر خارجية أو ترتيبات تجارية ولوجستية."},
+      "en": {"category":"Trade & Logistics","title":"Import / Export Linked Sourcing","description":"Coordinating sourcing, shipment and supply requirements for projects that depend on external sources or trade logistics."}
+    }
+  ]
+}

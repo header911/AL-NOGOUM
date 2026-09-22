@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>إدارة موقع النجوم</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Manrope:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#061522;--panel:#0a2032;--field:#071a29;--line:rgba(255,255,255,.11);--text:#f5f7f8;--muted:#90a3b2;--accent:#f4b73f;--green:#38d58c;--red:#ff7a7a}*{box-sizing:border-box}body{margin:0;font-family:Cairo,system-ui;background:var(--bg);color:var(--text);line-height:1.7}.wrap{width:min(1120px,calc(100% - 28px));margin:auto;padding:42px 0 100px}h1{margin:0;font-size:clamp(1.8rem,4vw,3rem)}.sub{color:var(--muted);margin:4px 0 28px}.notice{border:1px solid rgba(244,183,63,.23);background:rgba(244,183,63,.06);padding:15px 17px;border-radius:14px;color:#e8d7b4;margin-bottom:20px}.card{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:22px;margin-bottom:16px}h2{font-size:1.08rem;margin:0 0 15px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.full{grid-column:1/-1}.lang-title{font:700 .7rem Manrope,sans-serif;letter-spacing:.12em;color:var(--accent);margin:8px 0 4px}.divider{height:1px;background:var(--line);margin:18px 0}label{display:block;font-size:.72rem;color:#bfccd5;margin:0 0 5px}input,textarea{width:100%;border:1px solid var(--line);background:var(--field);color:#fff;border-radius:10px;padding:11px 12px;outline:none}textarea{min-height:102px;resize:vertical}input:focus,textarea:focus{border-color:rgba(244,183,63,.5)}input[type=color]{padding:3px;height:44px}.hint{font-size:.67rem;color:var(--muted);margin-top:5px}.row-card{border:1px solid var(--line);padding:14px;border-radius:14px;margin-top:10px}.row-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:10px}.row-head h2,.row-head strong{margin:0;font-size:.86rem}.remove{border:0;background:rgba(255,122,122,.1);color:#ffaaaa;padding:6px 10px;border-radius:8px;cursor:pointer}.actions{position:sticky;bottom:12px;background:rgba(6,21,34,.92);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:18px;padding:11px;display:flex;gap:9px;flex-wrap:wrap;box-shadow:0 18px 50px rgba(0,0,0,.3)}button,a.btn{border:0;border-radius:10px;padding:10px 15px;font-weight:800;cursor:pointer;text-decoration:none}.primary{background:linear-gradient(135deg,#ffd77c,var(--accent));color:#181108}.secondary{background:#173247;color:#fff}.status{margin-right:auto;align-self:center;font-size:.74rem;color:var(--muted)}.status.ok{color:#70e8ac}.status.bad{color:#ff9c9c}.preview{width:74px;height:74px;border-radius:13px;object-fit:contain;background:#fff;display:none;border:1px solid var(--line)}code{font-family:monospace}.mini-note{font-size:.7rem;color:var(--muted)}@media(max-width:740px){.grid{grid-template-columns:1fr}.full{grid-column:auto}.status{width:100%;margin:0}.actions>*{flex:1}.card{padding:16px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>لوحة إدارة موقع النجوم</h1>
+    <p class="sub">تعديل العربي والإنجليزي والصور والهوية ثم نشر <code>content.json</code> مباشرة على GitHub.</p>
+    <div class="notice">صفحة الإدارة غير مرتبطة من الموقع الرئيسي. صلاحية التعديل الفعلية تعتمد على GitHub Token بصلاحية <b>Contents: Read and write</b>. التوكن لا يتم حفظه.</div>
+
+    <section class="card"><h2>إعداد GitHub</h2><div class="grid">
+      <div><label>GitHub Username / Organization</label><input id="ghOwner" placeholder="your-username"></div><div><label>Repository</label><input id="ghRepo" placeholder="alnogoom-site"></div>
+      <div><label>Branch</label><input id="ghBranch" value="main"></div><div><label>Fine-grained Personal Access Token</label><input id="ghToken" type="password" autocomplete="off" placeholder="github_pat_..."></div>
+    </div></section>
+
+    <section class="card"><h2>اللوجو والألوان</h2><div class="grid">
+      <div><label>رابط / مسار اللوجو</label><input id="brandLogo" placeholder="assets/brand/logo.png"><div class="hint">لما تبعت اللوجو أقدر أضيفه هنا داخل المشروع.</div></div>
+      <div><label>رفع لوجو جديد</label><input id="logoFile" type="file" accept="image/png,image/jpeg,image/webp,image/svg+xml"></div>
+      <div><label>لون الخلفية الرئيسي</label><input id="brandPrimary" type="color"></div><div><label>لون الـ Accent</label><input id="brandAccent" type="color"></div>
+      <div><label>Accent ثانوي</label><input id="brandAccent2" type="color"></div><div><img id="logoPreview" class="preview" alt="Logo preview"></div>
+    </div></section>
+
+    <section class="card"><h2>صور الواجهة</h2><div class="grid">
+      <div><label>Hero image URL / path</label><input id="mediaHero" dir="ltr"></div><div><label>رفع صورة Hero جديدة</label><input id="heroFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
+      <div><label>About main image</label><input id="mediaAboutMain" dir="ltr"></div><div><label>رفع الصورة الرئيسية لـ About</label><input id="aboutMainFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
+      <div><label>About secondary image</label><input id="mediaAboutSide" dir="ltr"></div><div><label>رفع الصورة الجانبية لـ About</label><input id="aboutSideFile" type="file" accept="image/png,image/jpeg,image/webp"></div>
+    </div></section>
+
+    <section class="card"><h2>بيانات أساسية</h2><div class="grid">
+      <div><label>اسم الشركة بالعربي</label><input id="ar_companyName"></div><div><label>Company name in English</label><input id="en_companyName" dir="ltr"></div>
+      <div><label>الاسم المختصر</label><input id="ar_shortName"></div><div><label>Short name</label><input id="en_shortName" dir="ltr"></div>
+      <div><label>المقر بالعربي</label><input id="ar_location"></div><div><label>Location in English</label><input id="en_location" dir="ltr"></div>
+    </div></section>
+
+    <section class="card"><h2>الواجهة الرئيسية Hero</h2><div class="lang-title">ARABIC</div><div class="grid">
+      <div class="full"><label>السطر الصغير</label><input id="ar_heroBadge"></div><div class="full"><label>العنوان</label><textarea id="ar_heroTitle"></textarea></div><div class="full"><label>الوصف</label><textarea id="ar_heroSubtitle"></textarea></div>
+    </div><div class="divider"></div><div class="lang-title">ENGLISH</div><div class="grid">
+      <div class="full"><label>Badge</label><input id="en_heroBadge" dir="ltr"></div><div class="full"><label>Headline</label><textarea id="en_heroTitle" dir="ltr"></textarea></div><div class="full"><label>Description</label><textarea id="en_heroSubtitle" dir="ltr"></textarea></div>
+    </div></section>
+
+    <section class="card"><h2>من نحن / About</h2><div class="grid">
+      <div><label>عنوان من نحن</label><input id="ar_aboutTitle"></div><div><label>About headline</label><input id="en_aboutTitle" dir="ltr"></div>
+      <div class="full"><label>النص العربي - 1</label><textarea id="ar_aboutText1"></textarea></div><div class="full"><label>النص العربي - 2</label><textarea id="ar_aboutText2"></textarea></div>
+      <div class="full"><label>English text - 1</label><textarea id="en_aboutText1" dir="ltr"></textarea></div><div class="full"><label>English text - 2</label><textarea id="en_aboutText2" dir="ltr"></textarea></div>
+    </div></section>
+
+    <section class="card"><div class="row-head"><h2>الخدمات / Services</h2><button class="secondary" id="addService" type="button">+ إضافة خدمة</button></div><div id="servicesEditor"></div></section>
+    <section class="card"><div class="row-head"><h2>مجالات التنفيذ / Capabilities</h2><button class="secondary" id="addProject" type="button">+ إضافة عنصر</button></div><div id="projectsEditor"></div></section>
+
+    <section class="card"><h2>التواصل</h2><div class="row-head"><strong>الأرقام وواتساب</strong><button class="secondary" id="addPhone" type="button">+ رقم</button></div><div id="phonesEditor"></div><div class="row-head" style="margin-top:16px"><strong>الإيميلات</strong><button class="secondary" id="addEmail" type="button">+ إيميل</button></div><div id="emailsEditor"></div></section>
+
+    <div class="actions"><button class="secondary" id="reloadBtn" type="button">إعادة تحميل</button><a class="btn secondary" href="index.html" target="_blank">معاينة الموقع</a><button class="primary" id="publishBtn" type="button">نشر على GitHub</button><span class="status" id="status">جاهز</span></div>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>

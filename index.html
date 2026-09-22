@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="شركة النجوم للتوريدات العمومية والمقاولات - توريدات، مقاولات، أعمال كهربائية، واستيراد وتصدير من شبين الكوم، المنوفية." />
+  <meta name="theme-color" content="#071827" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="شركة النجوم للتوريدات العمومية والمقاولات" />
+  <meta property="og:description" content="توريدات عمومية، مقاولات، أعمال كهربائية، واستيراد وتصدير." />
+  <title>شركة النجوم | للتوريدات العمومية والمقاولات</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.pexels.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Al Nogoum home">
+        <span class="brand-logo-wrap">
+          <img class="brand-logo" data-logo alt="" />
+          <span class="brand-fallback">ن</span>
+        </span>
+        <span class="brand-copy">
+          <strong data-short-name></strong>
+          <small>GENERAL SUPPLIES &amp; CONTRACTING</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a class="nav-link active" href="#home" data-nav="home"></a>
+        <a class="nav-link" href="#about" data-nav="about"></a>
+        <a class="nav-link" href="#services" data-nav="services"></a>
+        <a class="nav-link" href="#projects" data-nav="projects"></a>
+        <a class="nav-link nav-contact" href="#contact" data-nav="contact"></a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Change language">
+          <span class="lang-icon">文</span><b id="langToggleText">English</b>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-media" id="heroMedia"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-lines"></div>
+      <div class="hero-orb hero-orb-a"></div>
+      <div class="hero-orb hero-orb-b"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span><span data-copy="heroBadge"></span></div>
+          <h1 data-copy="heroTitle"></h1>
+          <p class="hero-subtitle" data-copy="heroSubtitle"></p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-primary-whatsapp target="_blank" rel="noopener noreferrer">
+              <span data-copy="heroPrimary"></span>
+              <span class="btn-arrow">↗</span>
+            </a>
+            <a class="btn btn-ghost" href="#services"><span data-copy="heroSecondary"></span><span>↓</span></a>
+          </div>
+          <div class="hero-meta">
+            <div class="meta-pin">⌖</div>
+            <div><small data-copy="contactLocationLabel"></small><strong data-copy="location"></strong></div>
+          </div>
+        </div>
+
+        <div class="hero-aside reveal delay-1">
+          <div class="glass-card hero-card card-electrical">
+            <div class="card-icon">⚡</div>
+            <div><strong data-copy="heroCard1Title"></strong><span data-copy="heroCard1Text"></span></div>
+          </div>
+          <div class="glass-card hero-card card-supply">
+            <div class="card-icon">▦</div>
+            <div><strong data-copy="heroCard2Title"></strong><span data-copy="heroCard2Text"></span></div>
+          </div>
+          <div class="hero-emblem">
+            <div class="emblem-ring ring-one"></div>
+            <div class="emblem-ring ring-two"></div>
+            <div class="emblem-core">
+              <img class="hero-logo" data-logo alt="" />
+              <span class="hero-logo-fallback">N</span>
+              <small>AL NOGOUM</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <div class="trust-line"><i></i><span data-copy="trustLine"></span></div>
+        <a href="#about" class="scroll-cue"><span data-copy="heroScroll"></span><b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-layout">
+        <div class="about-media reveal">
+          <figure class="about-photo about-photo-main" id="aboutMain"></figure>
+          <figure class="about-photo about-photo-side" id="aboutSide"></figure>
+          <div class="about-stamp"><span>AL</span><strong>NOGOUM</strong><small>EST. FOR BUSINESS</small></div>
+          <div class="photo-label"><i></i><span data-copy="aboutImageLabel"></span></div>
+        </div>
+        <div class="about-copy reveal delay-1">
+          <span class="section-kicker" data-copy="aboutKicker"></span>
+          <h2 data-copy="aboutTitle"></h2>
+          <p class="lead" data-copy="aboutText1"></p>
+          <p data-copy="aboutText2"></p>
+          <div class="about-pills">
+            <span data-copy="aboutPill1"></span>
+            <span data-copy="aboutPill2"></span>
+            <span data-copy="aboutPill3"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker" data-copy="servicesKicker"></span>
+            <h2 data-copy="servicesTitle"></h2>
+          </div>
+          <p data-copy="servicesIntro"></p>
+        </div>
+        <div class="services-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="process section">
+      <div class="process-bg"></div>
+      <div class="container process-layout">
+        <div class="process-intro reveal">
+          <span class="section-kicker" data-copy="processKicker"></span>
+          <h2 data-copy="processTitle"></h2>
+          <p data-copy="processIntro"></p>
+        </div>
+        <div class="process-steps" id="processSteps"></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker" data-copy="projectsKicker"></span>
+            <h2 data-copy="projectsTitle"></h2>
+          </div>
+          <p data-copy="projectsIntro"></p>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-glow"></div>
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div class="contact-copy">
+            <span class="section-kicker" data-copy="contactKicker"></span>
+            <h2 data-copy="contactTitle"></h2>
+            <p data-copy="contactText"></p>
+            <a class="btn btn-primary contact-cta" data-primary-whatsapp target="_blank" rel="noopener noreferrer">
+              <span data-copy="contactWhatsapp"></span><span class="btn-arrow">↗</span>
+            </a>
+          </div>
+          <div class="contact-details">
+            <div class="contact-location-block">
+              <span>⌖</span>
+              <div><small data-copy="contactLocationLabel"></small><strong data-copy="location"></strong></div>
+            </div>
+            <div id="phonesList"></div>
+            <div id="emailsList"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <span class="brand-logo-wrap mini"><img class="brand-logo" data-logo alt="" /><span class="brand-fallback">ن</span></span>
+        <div><strong data-copy="companyName"></strong><p data-copy="footerLine"></p></div>
+      </div>
+      <div class="footer-note">© <span id="year"></span> <span data-copy="rights"></span></div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" data-primary-whatsapp target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <span class="wa-icon">◉</span><b>WhatsApp</b>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
