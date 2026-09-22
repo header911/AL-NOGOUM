@@ -452,3 +452,42 @@ html[dir="rtl"] .trade-route>i::after{animation-name:routeMoveRtl}
   .trade-route b{font-size:.43rem}
   .service-card.service-featured::after{top:18px;inset-inline-end:65px;font-size:.45rem}
 }
+
+
+/* V4.1.1 — WhatsApp icon visual fix */
+.floating-whatsapp{
+  isolation:isolate;
+  overflow:visible;
+}
+.floating-whatsapp .wa-icon{
+  width:26px;
+  height:26px;
+  min-width:26px;
+  flex:0 0 26px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:0!important;
+  border-radius:0!important;
+  padding:0!important;
+  line-height:0;
+  overflow:visible;
+  box-sizing:border-box;
+}
+.floating-whatsapp .wa-icon svg{
+  display:block;
+  width:100%;
+  height:100%;
+  overflow:visible;
+  transform:none!important;
+  fill:currentColor;
+}
+@media (max-width:900px){
+  .floating-whatsapp .wa-icon{
+    width:30px;
+    height:30px;
+    min-width:30px;
+    flex-basis:30px;
+  }
+  .floating-whatsapp .wa-icon svg{width:30px;height:30px}
+}
